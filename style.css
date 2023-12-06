@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  #131921;
+   
+}
+
+
+.bg-color {
+    background-color:  #131921;
+}
+
+.text-style{
+    color: #bbb;
+}
+
+
+
+.contact-color{
+    color: #ff004f;
+}
+
+
+
+.my-img {
+    background-image: url('./img/Marvel/ab.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 385px;
+    width: 100%;
+}
+
+.inner-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-hover{
+
+    border: 1px solid #bbb;
+}
+
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: large;
+    margin-right: 20px;
+    display: inline-block;
+    transition: border ease-in 0.2s;
+    position: relative;
+ }
+ 
+ 
+ li a::after {
+    content: '';
+    width: 0%;
+    height: 4px;
+    background-color: #ff004f;
+    position: absolute;
+    left: 0;
+    top: 21px;
+    transition: 0.5s;
+ }
+ 
+ 
+ li a:hover::after {
+ 
+    width: 100%;
+ }
