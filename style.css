@@ -6,6 +6,7 @@ body {
 
 }
 
+/* colors */
 
 .bg-color {
     background-color: #131921;
@@ -21,7 +22,7 @@ body {
     color: #ff004f;
 }
 
-
+/* marvel single img */
 
 .my-img {
     background-image: url('./img/Marvel/ab.jpg');
@@ -43,6 +44,7 @@ body {
     border: 1px solid #bbb;
 }
 
+/* navbar items hover */
 
 li a {
     text-decoration: none;
@@ -67,12 +69,49 @@ li a::after {
     transition: 0.5s;
 }
 
-li a:hover{
+li a:hover {
     color: #fff;
 }
 
 li a:hover::after {
 
-   
+
     width: 100%;
+}
+
+/* footer */
+
+
+.footer-bg {
+    background-color: #151515;
+
+}
+
+/* .h-container{
+    height: 350px;
+} */
+
+.footinner {
+    margin-top: 50px;
+}
+
+.foot-a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.foot-a:hover {
+    text-decoration: underline;
+}
+
+.foot-icon {
+
+    font-size: xx-large;
+    color: #bbb;
+    margin-right: 17px;
+    margin-top: 10px;
+
 }
