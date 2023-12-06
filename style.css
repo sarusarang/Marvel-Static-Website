@@ -2,22 +2,22 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:  #131921;
-   
+    background-color: #131921;
+
 }
 
 
 .bg-color {
-    background-color:  #131921;
+    background-color: #131921;
 }
 
-.text-style{
+.text-style {
     color: #bbb;
 }
 
 
 
-.contact-color{
+.contact-color {
     color: #ff004f;
 }
 
@@ -32,13 +32,13 @@ body {
     width: 100%;
 }
 
-.inner-text{
+.inner-text {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contact-hover{
+.contact-hover {
 
     border: 1px solid #bbb;
 }
@@ -46,17 +46,17 @@ body {
 
 li a {
     text-decoration: none;
-    color: #fff;
+    color: #bbb;
     font-weight: 700;
     font-size: large;
     margin-right: 20px;
     display: inline-block;
     transition: border ease-in 0.2s;
     position: relative;
- }
- 
- 
- li a::after {
+}
+
+
+li a::after {
     content: '';
     width: 0%;
     height: 4px;
@@ -65,10 +65,14 @@ li a {
     left: 0;
     top: 21px;
     transition: 0.5s;
- }
- 
- 
- li a:hover::after {
- 
+}
+
+li a:hover{
+    color: #fff;
+}
+
+li a:hover::after {
+
+   
     width: 100%;
- }
+}
