@@ -44,6 +44,25 @@ body {
     border: 1px solid #bbb;
 }
 
+.my-btn {
+    color: #fff;
+    font-size: larger;
+    font-weight: 900;
+    width: 120px;
+    height: 50px;
+    border-radius: 22px;
+    background-color: #ff004f;
+    border: none;
+    cursor: pointer;
+    transition: background ease-out 0.5s;
+
+}
+
+.my-btn:hover {
+
+    background-color: rgb(69, 92, 240);
+}
+
 /* navbar items hover */
 
 li a {
@@ -87,9 +106,7 @@ li a:hover::after {
 
 }
 
-/* .h-container{
-    height: 350px;
-} */
+
 
 .footinner {
     margin-top: 50px;
@@ -114,4 +131,45 @@ li a:hover::after {
     margin-right: 17px;
     margin-top: 10px;
 
+}
+
+.foot-icon:hover {
+    color: #fff;
+}
+
+.foot-b {
+    text-decoration: none;
+    color: #767676;
+    font-weight: 500;
+    margin-right: 25px;
+
+}
+
+.foot-b:hover {
+    color: #fff;
+}
+
+
+.my-name {
+    color: #767676;
+    text-decoration: none;
+
+}
+
+.foot-name {
+
+    font-size: x-large;
+    margin-right: 10px;
+    color: #bbb;
+
+}
+
+.foot-name:hover {
+    color: #fff;
+}
+
+span:hover {
+    color: #ff004f;
+    font-weight: bold;
+    font-size: larger;
 }
