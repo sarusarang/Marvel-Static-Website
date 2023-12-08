@@ -173,3 +173,7 @@ span:hover {
     font-weight: bold;
     font-size: larger;
 }
+
+.card-width{
+    height: 830px;
+}
